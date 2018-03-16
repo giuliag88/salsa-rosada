@@ -1,0 +1,131 @@
+<!--
+Date: 15th of January 2015
+Author: http://giuliag88.github.io/portfolio/index.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<title>Gallery &#124; Salsa Rosada</title>
+
+		<meta name="keywords" content="LGBT Salsa Classes" />
+		<meta name="author" content="Giulia - http://giuliag88.github.io/portfolio/index.html" />
+		<meta name="description" content="In the heart of London, LGBT Salsa Classes provide a unique opportunity for LGBT People to mix and socialize whilst also learning to dance Salsa." />
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<link rel="stylesheet" media="all" type="text/css" href="css/main.css" />
+		<!-- Important Owl stylesheet -->
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- Default Theme -->
+		<link rel="stylesheet" href="css/owl.theme.css">
+		<link rel="stylesheet" href="css/owl.transitions.css">
+
+		<link rel="shortcut icon" type="image/vnd" href="img/favicon.ico" />
+
+	</head>
+
+
+	<body>
+
+		<header>
+
+				<img id="logo" src="img/sr_logo.gif" title="Salsa Rosada Logo" alt="Salsa Rosada Logo" />
+
+				<nav>
+					<ul id="nav" class="display">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="classes.html">Classes</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="aboutus.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="links.html">Links</a></li>
+					</ul>
+				</nav>
+
+		</header>
+
+
+		<section id="main">
+
+				<h2>GALLERY</h2>
+
+					<article id="galleryWrapper">
+
+						<div id="owl-demo" class="owl-carousel owl-theme">
+
+							<div class="item"><img src="img/gallery/img01.gif"></div>
+							<div class="item"><img src="img/gallery/img02.gif"></div>
+							<div class="item"><img src="img/gallery/img03.gif"></div>
+							<div class="item"><img src="img/gallery/img04.gif"></div>
+							<div class="item"><img src="img/gallery/img05.gif"></div>
+
+			      </div>
+
+					</article>
+
+		</section>
+
+
+		<footer>
+			<img src="img/rainbowflag.png" alt="Rainbow Flag" />
+			<p>Copyright &copy Salsa Rosada 2015</p>
+		</footer>
+
+
+	</body>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="js/nav.js" /></script>
+
+
+	<!-- CAROUSEL -->
+	<!--  jQuery 1.7+  -->
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<!-- Include js plugin -->
+	<script src="js/owl.carousel.js"></script>
+
+	<style>
+	 #owl-demo .owl-item div{
+		 padding:5px;
+	 }
+	 #owl-demo .owl-item img{
+		 display: block;
+		 width: 100%;
+		 height: auto;
+		 -webkit-border-radius: 3px;
+		 -moz-border-radius: 3px;
+		 border-radius: 3px;
+	 }
+	 </style>
+
+	 <script>
+	 $(document).ready(function() {
+		 $("#owl-demo").owlCarousel({
+			 autoPlay : 3000,
+			 stopOnHover : false,
+			 navigation:true,
+			 paginationSpeed : 1000,
+			 goToFirstSpeed : 2000,
+			 singleItem : true,
+			 autoHeight : true,
+			 transitionStyle:"fade"
+		 });
+	 });
+	 </script>
+	 <!-- END CAROUSEL -->
+
+
+	<!-- GOOGLE ANALYTICS -->
+ 	<script>
+ 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ 	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ 	  ga('create', 'UA-77364359-1', 'auto');
+ 	  ga('send', 'pageview');
+ 	</script>
+	<!-- END GOOGLE ANALYTICS -->
+</html>

@@ -1,0 +1,106 @@
+body {
+  position: relative;
+  height: 100%;
+  overflow-y: scroll;
+  text-align: center;
+}
+
+header img {
+  max-width: 280px;
+}
+@media (min-width: 992px) {
+  header img {
+    max-width: 450px;
+  }
+}
+
+section {
+  margin-top: 50px;
+}
+
+section h1 {
+  color: rgb(240, 3, 127);
+}
+
+@media (min-width: 992px) {
+  .side-section {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: rgb(127, 2, 67);
+  }
+}
+
+.main-section {
+}
+
+article {
+  padding: 40px 0;
+}
+
+footer img {
+  max-width: 280px;
+}
+@media (min-width: 992px) {
+  footer img {
+    max-width: 450px;
+  }
+}
+
+.carousel {
+  background-color: rgb(255, 255, 255);
+}
+
+.carousel-control.left {
+  background-image: none!important;
+  color: rgb(0, 0, 0);
+}
+
+.carousel-control.right {
+  background-image: none!important;
+  color: rgb(0, 0, 0);
+}
+
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  margin: 0 auto;
+}
+
+.align-img-center {
+  display: block;
+  margin: 0 auto;
+}
+
+/*.navbar {
+  min-height: 70px;
+}
+.navbar-nav>li>a {
+  line-height: 70px;
+}
+
+.navbar-brand img {
+  max-width: 180px;
+}
+
+.navbar-toggle {
+  margin-top: 18px;
+}*/
+
+.color-1 {
+  background-color: rgb(255, 3, 135);
+}
+.color-2 {
+  background-color: rgb(240, 3, 123);
+}
+.color-3 {
+  background-color: rgb(229, 3, 121);
+}
+.color-4 {
+  background-color: rgb(127, 2, 67);
+}
+.color-5 {
+  background-color: rgb(64, 1, 34);
+}
+.color-6 {
+  background-color: rgb(0, 0, 0);
+}
